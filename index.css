@@ -1,0 +1,135 @@
+#festname {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
+    padding-left: 10px;
+    text-decoration: none;
+    color:#231942;
+ }
+ 
+ 
+ .navlinks {
+    padding-top: 5px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
+    text-decoration:wavy;
+    font-size: 30px;
+ }
+ 
+ 
+ nav {
+    background-color: #E0B1CB;
+    padding: 0px;
+    margin: 0px;
+ }
+ 
+ 
+ #countdown {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 20px;
+    padding-right: 10px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color:#231942;
+ }
+ 
+ 
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+  }
+ 
+ 
+body {
+    margin: 0px;
+  }
+ 
+
+.FESTIVALNAME {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 180px;
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    color: #231942
+  }
+
+.exit-intent-popup {
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  transform: translateY(60%) scale(0); 
+}
+
+.exit-intent-popup.visible {
+  transform: translateY(0) scale(1);
+}
+
+.newsletter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  background: #231942;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.email {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.submit {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.close {
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 2px 5px;
+  font-size: 20px;
+  background: black;
+  color: white;
+}
+
+.footerbackground {
+  background-color: #E0B1CB;
+  padding: 50px;
+}
+
+.footertitle {
+  font-family: 'Bungee Shade', cursive;
+  color: #231942;
+  font-size: 30px;
+}
+
+.footerheadings {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #231942;
+  font-size: 30px;
+}
+
+.footertext {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.copyright {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+}
